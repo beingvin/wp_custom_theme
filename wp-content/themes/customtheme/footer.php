@@ -1,5 +1,5 @@
 <footer>
-    <p>copyright custom theme</p>
+    <p>footer</p>
 </footer>
 </body>
 

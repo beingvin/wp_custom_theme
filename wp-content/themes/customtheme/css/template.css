@@ -1,3 +1,13 @@
-.top-bar {
-  background: plum;
+.social-media-icons {
+  background: #c2c2c2;
+  height: 30px;
+}
+.search {
+  background: lightgray;
+  height: 30px;
+}
+
+.main-menu ul li, .footer-menu ul li {
+  display: inline;
+  margin-left: 2%;
 }

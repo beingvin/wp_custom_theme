@@ -9,10 +9,18 @@ function load_scripts()
 
 add_action('wp_enqueue_scripts', 'load_scripts');
 
-register_nav_menus(
-    array(
-        'my_main_menu' => 'Main Menu',
-        'footer_menu' => 'Footer Menu'
-    )
+// main configuration function
+function custom_theme_config()
+{
 
-);
+    // Registering our menu
+    register_nav_menus(
+        array(
+            'my_main_menu' => 'Main Menu',
+            'footer_menu' => 'Footer Menu'
+        )
+
+    );
+};
+
+add_action('after_setup_theme', 'custom_theme_config', 0);

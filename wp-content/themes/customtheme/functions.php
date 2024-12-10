@@ -19,8 +19,14 @@ function custom_theme_config()
             'my_main_menu' => 'Main Menu',
             'footer_menu' => 'Footer Menu'
         )
-
     );
+
+    // custom header
+    $args = array(
+        'height' =>  225,
+        'width' => 1920
+    );
+    add_theme_support('custom-header', $args);
 };
 
 add_action('after_setup_theme', 'custom_theme_config', 0);

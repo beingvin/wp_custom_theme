@@ -28,8 +28,8 @@
                         if (have_posts()):
                             // While have posts, show them to us 
                             while (have_posts()): the_post();
-                                get_template_part('template-parts/content');
-                        endwhile;
+                                get_template_part('template-parts/content', get_post_format());
+                            endwhile;
                         else:
                         ?>
                             <p>There's nothing yet to be displayed</p>

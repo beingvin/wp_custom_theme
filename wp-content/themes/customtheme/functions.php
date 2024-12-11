@@ -30,6 +30,9 @@ function custom_theme_config()
 
     // Post Thumbnails
     add_theme_support('post-thumbnails');
+
+    // Post formats
+    add_theme_support('post-formats', array('video', 'image'));
 };
 
 add_action('after_setup_theme', 'custom_theme_config', 0);

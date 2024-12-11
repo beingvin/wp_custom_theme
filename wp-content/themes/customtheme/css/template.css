@@ -22,10 +22,20 @@
 
 .blog article {
   display: inline-block;
-  background-color: #D9EAFD;
+  background-color: #d9eafd;
   margin: 2% 0;
   padding: 4%;
   border-radius: 25px;
+}
+
+.blog .post_format {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #F8FAFC;
+  background-color: #BCCCDC;
+  border-radius: 10px;
+
+
 }
 
 .blog article h2 {

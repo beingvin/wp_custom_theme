@@ -27,6 +27,9 @@ function custom_theme_config()
         'width' => 1920
     );
     add_theme_support('custom-header', $args);
+
+    // Post Thumbnails
+    add_theme_support('post-thumbnails');
 };
 
 add_action('after_setup_theme', 'custom_theme_config', 0);

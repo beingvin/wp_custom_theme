@@ -7,7 +7,29 @@
   height: 30px;
 }
 
-.main-menu ul li, .footer-menu ul li {
+.main-menu ul li,
+.footer-menu ul li {
   display: inline;
   margin-left: 2%;
+}
+
+/* post thumbnail */
+
+.wp-post-image {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+
+.blog article {
+  display: inline-block;
+  background-color: #D9EAFD;
+  margin: 2% 0;
+  padding: 4%;
+  border-radius: 25px;
+}
+
+.blog article h2 {
+  border-bottom: 2px #fff solid;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
 }

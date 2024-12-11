@@ -12,12 +12,12 @@
 }
 
 .menu-area {
-  background-color: #f8fafc;  
+  background-color: #f8fafc;
 }
 
 .main-menu ul li a,
 .footer-menu ul li a {
-  color: #001F3F;
+  color: #001f3f;
 }
 .main-menu ul li,
 .footer-menu ul li {
@@ -26,12 +26,9 @@
   font-size: 1.2rem;
 }
 
-
 /* Services section  */
 .services {
-background-color: #89A8B2;
-height: 100px;
-text-align: center;
+  background-color: #89a8b2;
 }
 
 /* middle-area section */
@@ -40,9 +37,39 @@ text-align: center;
   padding: 2% 0;
 }
 
-.sidebar  {
-  background-color: #E5E1DA ;
+/* sidebar */
+.sidebar {
+  background-color: #e5e1da;
+}
 
+/* servicves */
+
+.services-item {
+  background-color: #f8fafc;
+    padding: 20px 15px;
+  height: 550px;
+  border-radius: 10px;
+}
+
+.services-item .wp-block-image {
+  height: 225px;
+  border: 4px solid #9aa6b2;
+  background-color: #f8fafc;
+  margin-bottom: 10px;
+}
+
+
+.services-item .wp-block-image img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: contain;
+}
+
+.services-item .wp-block-heading {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  border-bottom: 2px #89a8b2 solid;
 }
 
 /* post thumbnail */
@@ -80,7 +107,6 @@ footer {
   color: #fff;
   padding: 5px 0;
 }
-
 
 .footer-menu ul li a {
   color: #fff;

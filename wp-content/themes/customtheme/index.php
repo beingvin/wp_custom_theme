@@ -4,24 +4,9 @@
 
 <div class="content-area">
     <main>
-        <section class="slide">
-            <div class="container">
-                <div class="row text-center">
-                    Slide
-                </div>
-            </div>
-        </section>
-        <section class="services">
-            <div class="container">
-                <div class="row">
-                    Services
-                </div>
-            </div>
-        </section>
-        <section class="middle-area">
+          <section class="middle-area">
             <div class="container">
                 <div class="row ">
-                    <aside class="sidebar col-md-3">Sidebar</aside>
                     <div class="news col-md-9">
                         <?php
                         //    if there is any post
@@ -38,6 +23,8 @@
                         ?>
 
                     </div>
+                    <aside class="sidebar col-md-3 h-100 py-5"><?php get_sidebar('blog'); ?></aside>
+
                 </div>
             </div>
         </section>

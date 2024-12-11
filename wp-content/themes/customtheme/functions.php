@@ -35,4 +35,30 @@ function custom_theme_config()
     add_theme_support('post-formats', array('video', 'image'));
 };
 
+//register theme confiig 
 add_action('after_setup_theme', 'custom_theme_config', 0);
+
+// register sidebar 
+function custom_theme_sidebar()
+{
+    register_sidebar(array(
+        'name' => 'Home Page Sidebar',
+        'id' => 'sidebar-1',
+        'description' => 'This is homepage sidebar. You can add your widgets here',
+        'before_widget' => '<div class=widget-wrapper>',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class=widget-title>',
+        'after_title=></h2>,'
+    ));
+    register_sidebar(array(
+        'name' => 'Blog Page Sidebar',
+        'id' => 'sidebar-2',
+        'description' => 'This is blogpage sidebar. You can add your widgets here',
+        'before_widget' => '<div class=widget-wrapper>',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class=widget-title>',
+        'after_title=></h2>,'
+    ));
+};
+
+add_action('widgets_init', 'custom_theme_sidebar');

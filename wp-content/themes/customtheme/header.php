@@ -12,7 +12,7 @@
     <header>
         <section class="top-bar">
             <div class="container">
-                <div class="row">
+                <div class="row ">
                     <div class="social-media-icons col-xl-10 col-md-8 col-sm-8 col-6">Icons</div>
                     <div class="search col-xl-2 col-md-4 col-sm-4 col-6 text-right">Search</div>
                 </div>

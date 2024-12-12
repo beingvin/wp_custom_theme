@@ -33,6 +33,9 @@ function custom_theme_config()
 
     // Post formats
     add_theme_support('post-formats', array('video', 'image'));
+
+    //title
+    add_theme_support('title-tag');
 };
 
 //register theme confiig 

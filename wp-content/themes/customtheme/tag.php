@@ -7,13 +7,17 @@
         <section class="middle-area">
             <div class="container">
                 <div class="row ">
-                    <div class="news col-md-9">
+                    <div class="tags col-md-9">
                         <?php
+                        ?>
+                        <h1>Tag : <?php single_tag_title(); ?></h1>
+                        <?php
+                        // the_archive_description();
                         //    if there is any post
                         if (have_posts()):
                             // While have posts, show them to us 
                             while (have_posts()): the_post();
-                                get_template_part('template-parts/content', get_post_format());
+                                get_template_part('template-parts/content', 'tag');
                             endwhile;
                         ?>
                             <div class="row m-5">
@@ -33,8 +37,9 @@
                         endif;
                         ?>
                     </div>
-                    <aside class="sidebar col-md-3 h-100 my-5 p-5"><?php get_sidebar('blog'); ?></aside>
+                    <aside class="sidebar col-md-3 h-100 py-5"><?php get_sidebar('blog'); ?></aside>
                 </div>
+
             </div>
 </div>
 </section>

@@ -7,18 +7,14 @@
         <section class="middle-area">
             <div class="container">
                 <div class="row ">
-                    <div class="tags col-md-9">
+                    <div class="archive col-md-9">
                         <?php
-                        ?>
-                        <h1>Category : <?php single_cat_title(); ?></h1>
-                        <p> <?php the_archive_description(); ?></p>
-
-                        <?php
+                        the_archive_title('<h1 class="archive-title">', '</h1>');
                         //    if there is any post
                         if (have_posts()):
                             // While have posts, show them to us 
                             while (have_posts()): the_post();
-                                get_template_part('template-parts/content', 'category');
+                                get_template_part('template-parts/content', 'date');
                             endwhile;
                         ?>
                             <div class="row m-5">

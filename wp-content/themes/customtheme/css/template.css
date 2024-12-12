@@ -72,12 +72,20 @@
 }
 
 /* news section  */
+.news article {
+  display: inline-block;
+  background-color:#f8fafc;
+  width: 100%;
+  margin: 2% 0;
+  padding: 4%;
+  border-radius: 25px;
+
+}
 .news h2 {
   font-size: 1.4rem;
   background-color: #9aa6b2;
   color: #fff;
   padding: 10px;
-  border-bottom: 2px #fff solid;
   margin-bottom: 25px;
   border-radius: 10px;
 }
@@ -96,10 +104,12 @@
 
 .blog article {
   display: inline-block;
-  background-color: #d9eafd;
+  background-color:#f8fafc;
+  width: 100%;
   margin: 2% 0;
   padding: 4%;
   border-radius: 25px;
+
 }
 
 .blog .post_format {
@@ -111,7 +121,6 @@
 }
 
 .blog article h2 {
-  border-bottom: 2px #fff solid;
   padding-bottom: 10px;
   margin-bottom: 25px;
 }

@@ -46,7 +46,7 @@
 
 .services-item {
   background-color: #f8fafc;
-    padding: 20px 15px;
+  padding: 20px 15px;
   height: 550px;
   border-radius: 10px;
 }
@@ -57,7 +57,6 @@
   background-color: #f8fafc;
   margin-bottom: 10px;
 }
-
 
 .services-item .wp-block-image img {
   width: 100%;
@@ -71,6 +70,23 @@
   padding-bottom: 10px;
   border-bottom: 2px #89a8b2 solid;
 }
+
+/* news section  */
+.news h2 {
+  font-size: 1.4rem;
+  background-color: #9aa6b2;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 2px #fff solid;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+.news .thumbnail .wp-post-image {
+  float: none;
+  width: 100%;
+}
+
+/* blogs  */
 
 /* post thumbnail */
 .wp-post-image {

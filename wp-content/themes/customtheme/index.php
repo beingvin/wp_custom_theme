@@ -21,7 +21,6 @@
                         <?php
                         endif;
                         ?>
-
                     </div>
                     <aside class="sidebar col-md-3 h-100 py-5"><?php get_sidebar('blog'); ?></aside>
 

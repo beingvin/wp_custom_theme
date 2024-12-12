@@ -1,14 +1,15 @@
 /* header  */
 .top-bar {
   background-color: #9aa6b2;
+  height: 40px;
 }
 .social-media-icons {
-  height: 30px;
+  /* height: 30px; */
   color: #fff;
 }
 .search {
-  height: 30px;
-  color: #fff;
+  /* height: 30px; */
+  /* color: #fff; */
 }
 
 .menu-area {

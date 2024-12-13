@@ -1,11 +1,11 @@
 /* header  */
 .top-bar {
   background-color: #9aa6b2;
-  height: 40px;
+  height: 50px;
+  padding: 6px;
 }
-.social-media-icons {
-  /* height: 30px; */
-  color: #fff;
+.social-media-icons .social-icon {
+  /* width: 10px; */
 }
 /* .search { */
 /* height: 30px; */

@@ -8,7 +8,7 @@
             aria-label="<?php echo esc_attr_x('Search for:', 'label', 'textdomain'); ?>">
         <div class="input-group-append">
             <button class="btn btn-primary" type="submit" aria-label="<?php echo esc_attr_x('Submit search', 'button', 'textdomain'); ?>">
-                <i class="fas fa-search">ok</i>
+                ok
             </button>
         </div>
     </div>

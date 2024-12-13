@@ -13,9 +13,13 @@
 /* } */
 
 .menu-area {
+
   background-color: #f8fafc;
 }
 
+.main-menu ul {
+  margin-top: 2%;
+}
 .main-menu ul li a,
 .footer-menu ul li a {
   color: #001f3f;

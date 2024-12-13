@@ -39,6 +39,12 @@ function custom_theme_config()
 
     //title
     add_theme_support('title-tag');
+
+    //logo
+    add_theme_support('custom-logo', array(
+        'height' => 80,
+        'width' => 200
+    ));
 };
 
 //register theme confiig 

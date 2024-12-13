@@ -8,8 +8,8 @@
   color: #fff;
 }
 /* .search { */
-  /* height: 30px; */
-  /* color: #fff; */
+/* height: 30px; */
+/* color: #fff; */
 /* } */
 
 .menu-area {
@@ -41,6 +41,15 @@
 /* sidebar */
 .sidebar {
   background-color: #e5e1da;
+}
+
+/* sidebar contact form */
+.wpcf7-form button,
+input,
+optgroup,
+select,
+textarea {
+  width: 100%;
 }
 
 /* servicves */
@@ -75,12 +84,11 @@
 /* news section  */
 .news article {
   display: inline-block;
-  background-color:#f8fafc;
+  background-color: #f8fafc;
   width: 100%;
   margin: 2% 0;
   padding: 4%;
   border-radius: 25px;
-
 }
 .news h2 {
   font-size: 1.4rem;
@@ -105,12 +113,11 @@
 
 .blog article {
   display: inline-block;
-  background-color:#f8fafc;
+  background-color: #f8fafc;
   width: 100%;
   margin: 2% 0;
   padding: 4%;
   border-radius: 25px;
-
 }
 
 .blog .post_format {

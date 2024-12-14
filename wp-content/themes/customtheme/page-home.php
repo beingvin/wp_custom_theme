@@ -96,7 +96,31 @@
         <section class="map">
             <div class="container">
                 <div class="row text-center">
-                    <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510303648!2d76.76356891374634!3d28.644287353477026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1734096087746!5m2!1sen!2sin" width="400" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <?php
+                    if (get_theme_mod('set_map_src')) {
+                        // If a custom map source is set, use it
+                        $address = get_theme_mod('set_map_src');
+                    ?>
+                        <iframe class="googlemap" src="<?php echo esc_url($address); ?>" width="400" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <?php
+                    } else {
+                        // If no custom map source, use API key and address
+                        $key = get_theme_mod('set_map_apikey');
+                        $address = urlencode(get_theme_mod('set_map_address'));
+                    ?>
+                        <iframe
+                            width="100%"
+                            height="350"
+                            frameborder="0"
+                            style="border:0;"
+                            src="https://www.google.com/maps/embed/v1/place?key=<?php echo esc_attr($key); ?>&q=<?php echo esc_attr($address); ?>&zoom=15"
+                            allowfullscreen>
+                        </iframe>
+                    <?php
+                    }
+                    ?>
+
+
                 </div>
             </div>
         </section>

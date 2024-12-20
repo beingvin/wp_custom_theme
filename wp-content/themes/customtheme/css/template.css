@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* header  */
 .top-bar {
   background-color: #9aa6b2;
@@ -157,4 +159,20 @@ footer {
 
 .footer-menu ul li a {
   color: #fff;
+}
+
+/* add custom colors to gutenburg blocks */
+.has-blood-red-background-color {
+  background-color: #b9121b;
+}
+
+.has-blood-red-color {
+  color: #b9121b;
+}
+.has-white-background-color {
+  background-color: #ffffff;
+}
+
+.has-white-color {
+  color: #ffffff;
 }

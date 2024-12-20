@@ -3,6 +3,10 @@
 // require theme customizer
 require get_template_directory() . '/inc/customizer.php';
 
+// require TGM Plugin activation 
+require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
+require_once get_template_directory() . '/inc/required-plugins.php';
+
 function load_scripts()
 {
     wp_enqueue_style('template', get_template_directory_uri() . '/css/template.css', array(), '1.0', 'all');

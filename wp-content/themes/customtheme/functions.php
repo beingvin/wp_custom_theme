@@ -108,6 +108,10 @@ function custom_theme_sidebar()
         'before_title' => '<h2 class=widget-title>',
         'after_title=></h2>,'
     ));
+    $textdomain = 'customtheme';
+    load_theme_textdomain($textdomain, get_template_directory() . '/languages/');
+    load_theme_textdomain($textdomain, get_stylesheet_directory() . '/languages/');
+
 };
 
 add_action('widgets_init', 'custom_theme_sidebar');
